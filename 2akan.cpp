@@ -3,11 +3,6 @@ int main() {
     int a = 0;
     int b = 1;
     std::cin >> a;
-    if (a < 0) {
-        a *= -1;
-        std::cout << '-';
-    }
-
     if (a == 0) std::cout << 0;
     else {
 
